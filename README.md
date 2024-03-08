@@ -14,7 +14,7 @@
 ## How to run?
 
 ```bash
-conda create -p env python=3.7 -y
+conda create -p env python=3.8 -y
 ```
 ```bash
 conda activate env/
