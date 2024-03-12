@@ -16,7 +16,7 @@ list_of_files = [
     f"{project_name}/configuration/__init__.py",
     f"{project_name}/configuration/s3_operations.py",
     f"{project_name}/constant/__init__.py",
-    f"{project_name}/constant/training_pipeline.py",
+    f"{project_name}/constant/training_pipeline/__init__.py",
     f"{project_name}/constant/application.py",
     f"{project_name}/entity/__init__.py",
     f"{project_name}/entity/artifacts_entity.py",
@@ -33,6 +33,8 @@ list_of_files = [
     "Dockerfile",
     "requirements.txt",
     "setup.py"
+
+
 ]
 
 for filepath in list_of_files:
