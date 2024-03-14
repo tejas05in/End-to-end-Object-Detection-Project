@@ -10,3 +10,14 @@ DATA_INGESTION_DIR_NAME: str = "data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 
 DATA_DOWNLOAD_URL: str = r"https://github.com/tejas05in/data/raw/main/sign%20language%20project.v1i.yolov5pytorch.zip"
+
+"""
+Data Validation related constant end with DATA_VALIDATION VAR NAME
+"""
+
+DATA_VALIDATION_DIR_NAME: str = "data_validation"
+
+DATA_VALIDATION_STATUS_FILE: str = "status.txt"
+
+DATA_VALIDATION_ALL_REQUIRED_FILES: str = ["train", "valid", "test", "data.yaml",
+                                           "README.dataset.txt", "README.roboflow.txt"]
