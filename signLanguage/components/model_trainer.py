@@ -48,13 +48,13 @@ class ModelTrainer:
             os.system(
                 f"cp yolov5/runs/train/yolov5s_results/weights/best.pt {self.model_trainer_config.model_trainer_dir}/")
 
-            os.system("rm -rf yolov5/runs")
             os.system("rm -rf train")
             os.system("rm -rf test")
             os.system("rm -rf valid")
             os.system("rm -rf data.yaml")
             os.system("rm -rf README.dataset.txt")
             os.system("rm -rf README.roboflow.txt")
+            os.system("rm -rf yolov5/runs")
 
             model_trainer_artifact = ModelTrainerArtifact(
                 trained_model_file_path="yolov5/best.pt",
